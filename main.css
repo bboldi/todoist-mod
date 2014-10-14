@@ -1,0 +1,30 @@
+.priority_1 .amicheckbox img , .priority_2 .amicheckbox img , .priority_3 .amicheckbox img , .priority_4 .amicheckbox img
+{
+	background-color: #ffffff !important;
+	border-color: #cccccc !important;
+}
+
+.priority_1 .task_content_item.content
+{
+	border-left: 1px #cacaca solid !important;
+}
+
+.priority_2 .task_content_item.content
+{
+	border-left: 1px #76c6ff solid !important;
+}
+
+.priority_3 .task_content_item.content
+{
+	border-left: 1px #0063a6 solid !important;
+}
+
+.priority_4 .task_content_item.content
+{
+	border-left: 1px #d24726 solid !important;
+}
+
+.task_content_item.content
+{
+	padding-left: 4px;
+}
