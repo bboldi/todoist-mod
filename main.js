@@ -11,6 +11,7 @@ $(document).ready(function(){
 		chrome.runtime.sendMessage(
 				{"method": "loadDefaultPriority"},
 				function (response) {
+					if(response == undefined) { response = 2; }
 					btd_default_priority = response;
 				});
 	}

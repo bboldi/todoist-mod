@@ -6,6 +6,7 @@ function loadDefaultPriority(){
 
 	if(default_priority == undefined)
 	{
+		localStorage['default_priority'] = btd_default_priority_start;
 		return btd_default_priority_start;
 	}
 	else
